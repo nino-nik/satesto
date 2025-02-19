@@ -350,16 +350,15 @@ h6 {
 
 .card-top div  {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
   font-family: Poppins;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
-  text-align: left;
-  gap: 218px;
   color: #BCBCBC;
-  padding-right: 125px;
 }
+
 
 
 .card-mid h1 {
