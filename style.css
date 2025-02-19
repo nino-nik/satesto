@@ -120,6 +120,7 @@ header {
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   padding: 20px;
+  display: flex;
 }
   
 .h6-footer {
@@ -130,13 +131,12 @@ header {
 }
   
 h6 {
-  font-size: 26px;
+  font-size: clamp(18px, 2vw, 26px);
   font-weight: 700;
-  line-height: 39px;
+  line-height: 1.5;
   color: rgba(38, 38, 38, 1);
-  width: 227px;
-  height: 42px;
-  margin-left: 500px;
+  text-align: center;
+  margin: 20px auto;
 }
   
 .footer-links {
@@ -148,6 +148,7 @@ h6 {
   align-items: center;
   padding-top: 87px;
   padding-bottom: 77px;
+  flex-wrap: wrap; 
 }
   
 .footer-links > h5 {
