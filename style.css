@@ -183,15 +183,16 @@ h6 {
 }
 
 .footer-p{
+  margin: 0 10px;
+  font-size: 12px;
+  color: #333;
+  text-align: left;
   display: flex;
-  margin: o auto;
   width: 413px;
   height: 24px;
-  margin-left: 35px;
-  font-weight: 700;
-  size: 14px;
   line-height: 21px;
   }
+
 .latest-trends-image{
   background-image: url(assets/images/latest-trends.png);
   background-position: center;
