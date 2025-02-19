@@ -176,15 +176,14 @@ h6 {
   border-radius: 15px;
 }
 
-.footer-p{
+.footer-p {
   text-align: center;
-  margin: 10px auto;
-  width: 413px;
-  height: 24px;
   font-weight: 700;
-  size: 14px;
+  font-size: 14px;
   line-height: 21px;
-  }
+  margin: 10px auto;
+}
+
 .latest-trends-image{
   background-image: url(assets/images/latest-trends.png);
   background-position: center;
