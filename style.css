@@ -5,12 +5,19 @@
   text-decoration: none;
 }
 
+body{
+  background-color:#d3d3d3;
+}
+
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 37px 84px;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
 }
 
 .search{
@@ -71,7 +78,7 @@ header {
   align-items: flex-start;
   justify-content: center; 
   position: absolute;
-  left: 17%;
+  left: 12%;
   bottom: 30%;
   max-width: 50%;
   color: white;
@@ -113,14 +120,12 @@ header {
 }
 
 .Footer1 {
-  max-width: 100%;
+  max-width: 1440;
   height: 308px;
   background-color: rgba(255, 255, 255, 1);
   margin-top: 70px;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-  padding: 20px;
-  display: flex;
 }
   
 .h6-footer {
@@ -131,16 +136,17 @@ header {
 }
   
 h6 {
-  font-size: clamp(18px, 2vw, 26px);
+  font-size: 26px;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 39px;
   color: rgba(38, 38, 38, 1);
-  text-align: center;
-  margin: 20px auto;
+  width: 227px;
+  height: 42px;
+  margin-left: 500px;
 }
   
 .footer-links {
-  width: 90%;
+  width: 1270px;
   height: 187px;
   margin: 0 auto;
   display: flex;
@@ -148,7 +154,6 @@ h6 {
   align-items: center;
   padding-top: 87px;
   padding-bottom: 77px;
-  flex-wrap: wrap; 
 }
   
 .footer-links > h5 {
@@ -177,23 +182,24 @@ h6 {
   border-radius: 15px;
 }
 
-.footer-p {
-  text-align: center;
+.footer-p{
+  display: flex;
+  margin: o auto;
+  width: 413px;
+  height: 24px;
+  margin-left: 35px;
   font-weight: 700;
-  font-size: 14px;
+  size: 14px;
   line-height: 21px;
-  margin: 10px auto;
-}
-
+  }
 .latest-trends-image{
   background-image: url(assets/images/latest-trends.png);
   background-position: center;
   background-size: cover;  
-  width: 90%;
-  max-width: 1200px;
+  width: 1200px;
   height: 360px;
   border-radius:20px; 
-  margin: 0 auto;
+
 }
 .latest-trends-description{
 
@@ -214,7 +220,7 @@ h6 {
   padding-bottom: 50px;
   border-radius: 20px;
   width: 1200px;
-
+  background-color: #fff;
 }
 .latest-trends .fashion{
   position: absolute;
@@ -237,7 +243,7 @@ h6 {
   height: 700px;
   border-radius: 20px;
   padding-top: 50px;
- 
+  padding-bottom: 88px;
 
 }
 .mallory{
@@ -306,7 +312,9 @@ h6 {
 
 .card{
   display: flex;
-  gap: 45.49px;  
+  gap: 45.49px; 
+  background-color: #fff; 
+  border-radius: 20px;
 }
 
 .card-btn {
@@ -351,23 +359,23 @@ h6 {
 
 .card-top div  {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  flex-direction: row;
   font-family: Poppins;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
+  text-align: left;
+  gap: 218px;
   color: #BCBCBC;
+  padding-right: 125px;
 }
-
-
 
 .card-mid h1 {
   font-size: 26px;
   font-weight: 700;
   color: #262626;
   width: 543px;
-  height: 94px;
+  height: 94px; 
 }
 
 .card-mid p {
@@ -478,6 +486,8 @@ h6 {
   position: relative;
   left: -350px;
   padding-right: 300px;
+  padding-top: 133px;
+  padding-bottom: 50px;
 }
 .trending-container {
   display: flex;
