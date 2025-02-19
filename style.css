@@ -189,10 +189,11 @@ h6 {
   background-image: url(assets/images/latest-trends.png);
   background-position: center;
   background-size: cover;  
-  width: 1200px;
+  width: 90%;
+  max-width: 1200px;
   height: 360px;
   border-radius:20px; 
-
+  margin: 0 auto;
 }
 .latest-trends-description{
 
